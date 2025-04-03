@@ -38,7 +38,8 @@ const MOCK_IMAGES: ImageData[] = [
 ];
 
 // Flag to toggle between real API and mock data
-const USE_MOCK_DATA = true;
+// Set to false to connect to the real backend
+const USE_MOCK_DATA = false;
 
 // Upload a new image
 export const uploadImage = async (formData: FormData): Promise<ImageData> => {
